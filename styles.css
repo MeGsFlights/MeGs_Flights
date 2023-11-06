@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "HalloDu-MVDw";
+    src: url("HalloDu-MVDw.ttf");
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("img/planes\ background\ ultra.jpg")
+
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    height: 500px;
+    background-color: #FA0400;
+    background-size: cover;
+}
+.main-navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    opacity: .5;
+    margin: 0 auto;
+}
+.gallery{
+    margin-top: 50px;
+}
+.gallery-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery-item{
+    width: 350px;
+    margin: 50px;
+    margin-bottom: 75px;
+    background-color: white;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation-link{
+    color: #0400EB;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    
+}
+
+.main-logo-img{
+    width: 750px;
+    border-radius: 5000px;
+    height: 750px;
+    
+}
+
+.main-logo-img:hover{
+    transform: scale(1.1);
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.main-logo{
+    align-self: flex-end;
+    position: absolute;
+    top: -150px;
+    right: -130px;
+}
+
+.gallery-img{
+    width: 100%;
+}
+
+.main-title{
+    font-family: 'HalloDu-MVDw' cursive;
+    font-size: 180px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 900px;
+}
+
+.video-item{
+    width: 500px;
+    margin-bottom: 150px;
+    background-color: white;
+}
+
+.video-list{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.Video-img{
+width: 500px;
+}
+
+.main-content{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.shorts-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;  
+    margin: auto;
+}
+
+.shorts-item{
+    width: 350px;
+    margin: 50px;
+    margin-bottom: 75px;
+    background-color: white;
+}
+
+.short-img{
+    width: inherit;
+    border: 1px solid black;
+}
+
+.About-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.About-text{
+    font-size: 50px;
+    background-color: white;
+    display: inline-block;
+    line-height: 100px;
+    margin-right: 190px;
+}
+
+.About-title{
+    font-size: 50px;
+    background-color: white;
+}
+
+.About-img{
+    height: 400px;
+    margin-right: 50px;
+    vertical-align: top;
+    border: 1px solid grey;
+}
+
+.color{
+    width: 603px;
+    height: 402px;
+    background-color: #39ff14;
+}
