@@ -1,26 +1,29 @@
 @font-face {
     font-family: "HalloDu-MVDw";
     src: url("HalloDu-MVDw.ttf");
-    }
+}
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url("img/planes\ background\ ultra.jpg")
 
+body {
+    background-image: url("img/planes\ background\ ultra.jpg")
 }
-.container{
+
+.container {
     width: 1000px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     height: 500px;
     background-color: #FA0400;
     background-size: cover;
 }
-.main-navigation{
+
+.main-navigation {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -29,61 +32,66 @@ body{
     opacity: .5;
     margin: 0 auto;
 }
-.gallery{
+
+.gallery {
     margin-top: 50px;
 }
-.gallery-list{
+
+.gallery-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
 }
-.gallery-item{
+
+.gallery-item {
     width: 350px;
     margin: 50px;
     margin-bottom: 75px;
     background-color: white;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
 
-.navigation-link{
+.navigation-link {
     color: #0400EB;
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
-    
+
 }
 
-.main-logo-img{
+.main-logo-img {
     width: 750px;
-    border-radius: 5000px;
+    border-radius: 50%;
     height: 750px;
-    
+
 }
 
-.main-logo-img:hover{
+.main-logo-img:hover {
     transform: scale(1.1);
 }
-.nav{
+
+.nav {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.main-logo{
+.main-logo {
     align-self: flex-end;
     position: absolute;
     top: -150px;
     right: -130px;
 }
 
-.gallery-img{
+.gallery-img {
     width: 100%;
 }
 
-.main-title{
+.main-title {
     font-family: 'HalloDu-MVDw' cursive;
     font-size: 180px;
     margin-top: 40px;
@@ -91,73 +99,164 @@ img{
     font-weight: 900px;
 }
 
-.video-item{
+.video-item {
     width: 500px;
     margin-bottom: 150px;
     background-color: white;
 }
 
-.video-list{
-    display:flex;
+.video-list {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.Video-img{
-width: 500px;
+.Video-img {
+    width: 500px;
 }
 
-.main-content{
+.main-content {
     width: 500px;
     margin: 0 auto;
 }
 
-.shorts-list{
+.shorts-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    width: 1000px;  
+    width: 1000px;
     margin: auto;
 }
 
-.shorts-item{
+.shorts-item {
     width: 350px;
     margin: 50px;
     margin-bottom: 75px;
     background-color: white;
 }
 
-.short-img{
+.short-img {
     width: inherit;
     border: 1px solid black;
 }
 
-.About-content{
+.About-content {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.About-text{
+.About-text {
     font-size: 50px;
     background-color: white;
     display: inline-block;
     line-height: 100px;
     margin-right: 190px;
+    width: 35%;
 }
 
-.About-title{
+.About-title {
     font-size: 50px;
     background-color: white;
 }
 
-.About-img{
+.About-img {
     height: 400px;
     margin-right: 50px;
     vertical-align: top;
     border: 1px solid grey;
+    width: 600px;
+    margin-bottom: 20px;
 }
 
-.color{
+.color {
     width: 603px;
     height: 402px;
     background-color: #39ff14;
+}
+
+.flags {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.inner-container {
+    display: flex;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width: 450px){
+    .main-logo {
+        position: static;
+        align-self: center;
+        margin-top: 20px;
+    }
+
+    .main-title{
+        font-size: 50px;
+        margin-left: 13px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .gallery-list{
+        display: block;
+    }
+
+    .gallery-item{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .gallery-img{
+        width: 300px;
+    }
+
+    .main-navigation{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .header-container{
+        flex-direction: column-reverse;
+    }
+
+    .main-logo-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .navigation-item{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .navigation-link{
+        display: block;
+        padding: 7px;
+        color: lime;
+    }
+
+    .navigation-link:hover{
+        background-color: white;
+    }
+
+    
+
+
+
+    
 }
