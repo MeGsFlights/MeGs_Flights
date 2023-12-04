@@ -160,7 +160,6 @@ img {
 
 .About-img {
     height: 400px;
-    margin-right: 50px;
     vertical-align: top;
     border: 1px solid grey;
     width: 600px;
@@ -254,7 +253,57 @@ img {
         background-color: white;
     }
 
+    .main-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .shorts-list {
+        width: 100%;
+    }
     
+    .shorts-item {
+        width: 350px;
+        margin-bottom: 75px;
+        background-color: white;
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .About-text {
+        font-size: 40px;
+        line-height: 80px;
+        width: 100%;
+        display: block;
+    }
+
+    .flags{
+        display: block;
+        width: 100%;
+    }
+
+    .inner-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    dt,dd{
+        display: inline-block;
+    }
+
+    dd{
+        font-size: 20px;
+    }
+
+    dt{
+        font-size: 25px;
+    }
+
+    .color {
+        width: 100%;
+        display: block;
+        background-color: #39ff14;
+    }
 
 
 
