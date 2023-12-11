@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url("img/planes\ background\ ultra.jpg")
+    background-image: url("img/christmas.jpeg")
 }
 
 .container {
@@ -20,7 +20,11 @@ body {
 .header {
     height: 500px;
     background-color: #FA0400;
-    background-size: cover;
+    background-size: 300px 400px;
+    background-image: url("img/OOOMG.gif");
+    background-repeat: no-repeat;
+    background-position: top 50px left 1200px;
+
 }
 
 .main-navigation {
@@ -56,12 +60,21 @@ img {
 }
 
 .navigation-link {
-    color: #0400EB;
+    color: rgb(0, 255, 17);
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
 
 }
+
+.navigation-link:active{
+    color: rgb(255, 255, 255);
+}
+
+.navigation-link:visited{
+    color: blue;
+}
+
 
 .main-logo-img {
     width: 750px;
@@ -199,6 +212,15 @@ img {
         margin-left: 13px;
         margin-top: 20px;
         text-align: center;
+    }
+
+    .header {
+        background-color: #FA0400;
+        background-image: url("img/OOOMG.gif"),url("img/OOOMG.gif");
+        background-repeat: no-repeat,no-repeat;
+        background-position: 38px 90px,228px 90px;
+        background-size: 100px 150px;
+    
     }
 
     .gallery-list{
