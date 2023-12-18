@@ -218,7 +218,7 @@ img {
         background-color: #FA0400;
         background-image: url("img/OOOMG.gif"),url("img/OOOMG.gif");
         background-repeat: no-repeat,no-repeat;
-        background-position: 38px 90px,228px 90px;
+        background-position: left 10% top 25%, right 10% top 25%;
         background-size: 100px 150px;
     
     }
